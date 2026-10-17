@@ -4,7 +4,7 @@ export function loadContactPage() {
 const container = document.querySelector("#content");
 
 const contactTitle = document.createElement("h1");
-contactTitle.textContent = "Contach Us";
+contactTitle.textContent = "Contact Us";
 container.appendChild(contactTitle);
 
 const p1 = document.createElement("p");
